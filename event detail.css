@@ -45,6 +45,16 @@
     color: rgb(0, 9, 94);
 }
 
+.width1{
+    width: 60%;
+}
+
+@media (max-width:992px) {
+    .width1{
+        width: 90%;
+    }
+}
+
 /* footer */
 
 footer{
