@@ -20,6 +20,30 @@
     background:#f8c428 !important;
 }
 
+.back1{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.width{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 50%;
+}
+
+@media (max-width:992px) {
+    .width{
+        width: 90%;
+    }
+}
+
+.color1{
+    color: #7ea0ff;
+}
+
+
+.color2{
+    color: rgb(0, 9, 94);
+}
 
 /* footer */
 
