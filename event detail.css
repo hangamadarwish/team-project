@@ -37,7 +37,7 @@
 }
 
 .color1{
-    color: #7ea0ff;
+    color: rgb(103, 127, 139);
 }
 
 
@@ -53,6 +53,10 @@
     .width1{
         width: 90%;
     }
+}
+
+.lastbutton{
+    background-color: #f8c428 !important;
 }
 
 /* footer */
