@@ -66,6 +66,19 @@ footer a{
     color: white;
 }
 
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style-type: none;
+    color: rgba(235, 232, 232, 0.808);
+}
+
+footer li a{
+    color: rgba(235, 232, 232, 0.808);
+}
+
 footer a:hover{
     color: #f8c428;
 }
