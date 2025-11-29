@@ -1,6 +1,18 @@
+*{
+     font-family:Arial, sans-serif;
+     word-wrap: break-word;
+     overflow-wrap: break-word;
+}
+
 .back{
     background: url(image/h1_hero2.jpg.webp) no-repeat;
     background-size: cover;
+    padding-top: 150px !important;
+}
+
+.navbar{
+    background-color: white !important;
+     /* background: linear-gradient(180deg, rgb(29,74,122) 0%, rgba(4,33,62,0.96) 100%); */
 }
 
 .color1{
@@ -9,6 +21,10 @@
 
 .back1{
     background-color: rgba(126, 160, 255, 0.05);
+}
+
+.color3{
+    background:#f8c428 !important;
 }
 
 .color2{
@@ -28,4 +44,41 @@
 
 .cardimagehover{
     overflow: hidden;
+}
+
+/* footer */
+
+footer{
+   background-color: #0d1b4c;
+    color: white;
+}
+
+.footer-bottom{
+    background:#091433;
+}
+
+.footer-phone{
+    color:#f8c428 !important;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #f8c428;
+}
+
+.footer-social i{
+    background-color: white;
+    color: #091433;
+    border-radius: 2px;
+    transition: 0.5s !important;
+}
+
+.footer-social i:hover{
+    color: #091433;
+    background-color: #f8c428;
+    margin-left: 5px;
 }
