@@ -46,6 +46,26 @@
     overflow: hidden;
 }
 
+.youtube{
+    height: 80vh;
+    background: url(image/video-bg.jpg.webp) no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.youtube a{
+    text-decoration: none;
+    outline: 6px white solid;
+    border-radius: 100%;
+  
+}
+
+
+.fa-play{
+    color: white;
+ 
+}
+
 /* footer */
 
 footer{
