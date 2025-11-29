@@ -1,0 +1,177 @@
+
+.back1{
+    background: linear-gradient(to bottom, white, rgba(135, 207, 235, 0.363));
+}
+
+.inputsearch{
+    background: url(image/search.PNG) no-repeat;
+    background-position: 8px center;
+    background-size: 20px;
+    padding-left: 35px;
+    border: none;
+    border-right: 1px rgb(211, 208, 208) solid;
+    border-radius: 5px;
+}
+
+.inputsearch:focus{
+    outline: none;
+}
+
+@media (max-width:992px) {
+    .inputsearch{
+        border-left: none;
+    }
+}
+.inputlocation{
+    background: url(image/location.PNG) no-repeat;
+    background-position: 8px center;
+    background-size: 20px;
+    padding-left: 35px;
+    border: none;
+    border-right: 1px rgb(211, 208, 208) solid;
+    border-radius: 5px;
+}
+.inputlocation:focus{
+    outline: none;
+}
+
+@media (max-width:992px) {
+    .inputlocation{
+        border-left: none;
+    }
+}
+
+.select1{
+    background: url(image/bag.PNG) no-repeat;
+    background-position: 8px center;
+    background-size: 20px;
+    padding-left: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.select1:focus{
+    outline: none;
+}
+
+.form1{
+    border-radius: 15px;
+    background-color: white;
+}
+
+@media (max-width:992px) {
+    .form1 {
+        background-color: transparent !important;
+    }
+}
+
+
+.margin{
+    padding-top: 200px;
+}
+
+@media (max-width:768px) {
+    .margin {
+        padding-top: 100px;
+    }
+}
+
+
+/* card */
+
+.btn4{
+    background-color: rgba(185, 231, 249, 0.462) !important;
+    border-radius: 20px !important;
+}
+
+.btn5{
+    background-color: rgba(247, 198, 106, 0.541) !important;
+    border-radius: 20px !important;
+}
+
+.cardnine i{
+    background: linear-gradient(to bottom, white, rgba(135, 207, 235, 0.363), white);
+    color: rgba(64, 177, 243, 0.829);
+    
+}
+.cardnine:hover{
+    background: linear-gradient(to bottom, white, rgba(135, 207, 235, 0.363));
+    /* color: white; */
+    
+}
+
+.cardnine{
+    transition: 0.5s !important;
+}
+
+/* .cardimage img{
+    height: 7rem;
+} */
+
+.btnhover1 i{
+    transition: 0.5s;
+}
+.btnhover1:hover i{
+    display: none;
+}
+
+.cardimagehover img{
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+    transform-origin: center center;
+}
+
+.cardimagehover1:hover img{
+    transform: scale(1.1);
+}
+
+.cardimagehover{
+    overflow: hidden;
+}
+
+.private{
+    background-color: rgba(127, 255, 212, 0.418);
+    color: green !important;
+}
+
+.urgent{
+    background-color: rgba(245, 153, 153, 0.39);
+    color: rgb(102, 36, 36) !important;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+}
+
+/* footer */
+
+footer a{
+    text-decoration: none;
+    color: gray;
+    position: relative;
+}
+
+footer a:hover{
+    color: black;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+footer a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -13px;
+    background-color: black;
+    width: 12px;
+    height: 2px;
+    border-radius: 5px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+footer a:hover::before{
+    transform: scale(1);
+}
